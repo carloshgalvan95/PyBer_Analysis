@@ -11,12 +11,12 @@ We have two datasets to work with. The first dataset gives us the driver count a
 
 To be able to use this information, we are going to first merge both dataset to use them in conjunction.
 
-INSERT DATASET IMAGE HERE Pyber_dataset.png
+![Pyber_Dataset](https://github.com/carloshgalvan95/PyBer_Analysis/blob/main/Analysis/Pyber_Dataset.png)
 
 To visualize the disparity noticed, we are going to use three main comparisons.
-- Total Rides by City Type
-- Total Drivers by city Type
-- Total Fares by City Type
+- **Total Rides by City Type**
+- **Total Drivers by city Type**
+- **Total Fares by City Type**
 
 ### Total Rides by City Type
 What we notice here is the expected, urbanized cities get a considerably higher amount of rides than suburban or rural cities.
@@ -26,11 +26,21 @@ This is of course translated to more job opportunities for each driver that regi
 Nevertheless as any other product or service in the market, the value is determined by the law of supply and demand.
 
 >*The law of supply states that the quantity of a good supplied (i.e., the amount owners or producers offer for sale) rises as the market price rises, and falls as the price falls. Conversely, the law of demand says that the quantity of a good demanded falls as the price rises, and vice versa.*
-*-* *Al Ehrbar. Supply and Demand [Econlib](https://www.econlib.org/library/Enc/Supply.html#:~:text=The%20law%20of%20supply%20states,price%20rises%2C%20and%20vice%20versa.)*
+*-* ***Al Ehrbar. Supply and Demand [Econlib](https://www.econlib.org/library/Enc/Supply.html#:~:text=The%20law%20of%20supply%20states,price%20rises%2C%20and%20vice%20versa.)***
+
+Taking into account this principle, we can assume that the fares are going to decrease the more drivers we have.
+
+![Pyber_TotalRides](https://github.com/carloshgalvan95/PyBer_Analysis/blob/main/Analysis/Pyber_TotalRides_CityType.png)
+
 ### Total Drivers by City Type
+As we previously discussed an determined, the amount 
+
+![Pyber_TotalDrivers](https://github.com/carloshgalvan95/PyBer_Analysis/blob/main/Analysis/Pyber_TotalDrivers_CityType.png)
 
 ### Total Fares by City Type
 
-
+## Summary
+---
+![PyberSummary_LineChart](https://github.com/carloshgalvan95/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary.png)
 
 
