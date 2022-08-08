@@ -33,11 +33,41 @@ Taking into account this principle, we can assume that the fares are going to de
 ![Pyber_TotalRides](https://github.com/carloshgalvan95/PyBer_Analysis/blob/main/Analysis/Pyber_TotalRides_CityType.png)
 
 ### Total Drivers by City Type
-As we previously discussed an determined, the amount 
+As we previously discussed an determined, the amount of drivers is going to impact the average fare for each ride. Even if we get more rides, if the fare decreases, we can get to a point of diminishing returns where, as counter intuitive as it may sound, it could be in our best interest to lower the amount of hired drivers to decrease the total of rides and subsequently, the average fare.
 
 ![Pyber_TotalDrivers](https://github.com/carloshgalvan95/PyBer_Analysis/blob/main/Analysis/Pyber_TotalDrivers_CityType.png)
 
-### Total Fares by City Type
+### Total and Average Fares by City Type
+Finally, we are going to analyze the fare tendency for every city type to confirm our hypothesis. We can analyze this information with multiple approaches:
+- #### Total Amount of fares for each city type
+
+| **City Type** | **Total fares ($ USD)** |
+|-----------|---------------------|
+| Urban     | $ 39,854.38         |
+| Suburban  | $ 19,356.33         |
+| Rural     | $   4327.93         |
+
+The results from this table are just as expected, given that Urban cities are going to be way bigger and the size as well, the revenues are going to exponentially increase from suburban and rural cities. The main takeaway is going to be asking the questions, *How can we balance the number of drivers in Urban cities to mantain the same revenue while also increasing the average fare?*.
+
+- #### Average fare per ride
+
+| **City Type** | **Average Fare per Ride ($ USD)** |
+|-----------|-------------------------------|
+| Urban     | $ 24.52                       |
+| Suburban  | $ 30.97                       |
+| Rural     | $ 34.62                       |
+
+Now, let's evaluate the tendency of fares for each city type. As per the law of supply and demand, we clearly see here that the amount of drivers available in Urban cities is decreasing the average fare per ride, this is not benefitial in two main aspects. First, using PyBer in Rural cities is going to be less attractive, lower distances but more expensive fares in addition to the fact that people living in rural cities are more used to not use a car that often is going to make really difficult to portray PyBer as an attractive alternative for transportation. Second, Ironically, the bigger is not always the better, every driver added to PyBer signifies an additional point of possible failure, the more variables you have, the more possible point of failure, sometimes is better to have quality than quantity, if we can mantain our revenues intact by increasing the average fare and decreasing the amount of drivers, the points of failure decrease.
+
+- #### Average fare per driver
+
+| **City Type** | **Average Fare per Driver ($ USD)** |
+|-----------|---------------------------------|
+| Urban     | $ 16.57                         |
+| Suburban  | $ 39.50                         |
+| Rural     | $ 55.48                         |
+
+We can see an even bigger disparity between the average fares here confirming the hypothesis. Having this information we can determine how our average fare is going to vary by each driver and determine a point of diminishing return for the amount of total drivers.
 
 ## Summary
 ---
